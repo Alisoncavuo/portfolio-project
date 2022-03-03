@@ -30,9 +30,9 @@ h5 {
 }
 .btn-contact {
   font-family: "Overpass Mono", monospace;
-  background-color: #f0953b;
+  background-color: #23e473;
   opacity: 0.8;
-  color: #01353c;
+  color: #00262b;
   font-weight: bolder;
   border: 6px double;
   border-radius: 5px;
@@ -76,5 +76,25 @@ h5 {
   to {
     margin-right: 0%;
     width: 100%;
+  }
+}
+
+.btn-contact {
+  animation-name: example;
+  animation-duration: 6s;
+}
+
+@keyframes example {
+  0% {
+    background-color: #f8f0e9;
+  }
+  25% {
+    background-color: #f8cb9e;
+  }
+  50% {
+    background-color: #eca156;
+  }
+  100% {
+    background-color: #da8530;
   }
 }
