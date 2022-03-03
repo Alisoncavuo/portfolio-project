@@ -1,19 +1,80 @@
 /*font-family: 'Alegreya', serif;
 font-family: 'Dancing Script', cursive;
+font-family: 'Fraunces', serif;
 font-family: 'Great Vibes', cursive;
 font-family: 'Lato', sans-serif;
 font-family: 'Merienda', cursive;
 font-family: 'Nanum Gothic Coding', monospace;
+font-family: 'Overpass Mono', monospace;
 font-family: 'Poppins', sans-serif;
 font-family: 'Rubik', sans-serif;
 font-family: 'Source Sans Pro', sans-serif;*/
 
 h1 {
-  color: blue;
-  background-color: blueviolet;
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
+  font-family: "Fraunces", serif;
+  color: #01353c;
 }
-p {
-  font-family: "Poppins", sans-serif;
+h2 {
+  font-family: "Overpass Mono", monospace;
+  color: #01353c;
+}
+h5 {
+  font-family: "Overpass Mono", monospace;
+  color: #01353c;
+  margin-bottom: 40px;
+}
+
+.hero {
+  background-color: #efefef;
+  text-align: center;
+}
+.btn-contact {
+  font-family: "Overpass Mono", monospace;
+  background-color: #f0953b;
+  opacity: 0.8;
+  color: #01353c;
+  font-weight: bolder;
+  border: 6px double;
+  border-radius: 5px;
+  padding: 15px;
+  text-decoration: none;
+}
+.btn-contact:hover {
+  background-color: #9aa351;
+  color: #4b5027;
+  font-size: large;
+}
+
+h1 {
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+h5 {
+  animation-duration: 5s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-right: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 100%;
+  }
 }
