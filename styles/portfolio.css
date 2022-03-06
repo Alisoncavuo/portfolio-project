@@ -104,7 +104,7 @@ h5 {
     background-color: #bbcacc;
   }
   20% {
-    background-color: #4f99a3;
+    background-color: #457277;
   }
   55% {
     background-color: #276068;
@@ -135,7 +135,7 @@ h5 {
 
 img {
   margin-top: 50px;
-  max-width: 80%;
+  max-width: 60%;
   height: auto;
   border: 15px solid;
   border-radius: 6px;
@@ -143,71 +143,28 @@ img {
   box-shadow: 8px 12px 40px;
 }
 
-.first-title {
-  width: 20%;
-  text-align: center;
-  font-family: var(--default-font);
-  margin-left: 80px;
-  color: #fff;
-  background-color: var(--branding-color);
-  padding: 10px 20px;
-  border-radius: 5px;
-  margin-top: 25px;
-}
-
-.second-title {
-  width: 20%;
-  text-align: center;
-  font-family: var(--default-font);
-  margin-left: 180px;
-  color: #fff;
-  background-color: var(--branding-color);
-  padding: 10px 20px;
-  border-radius: 5px;
-  margin-top: 25px;
-}
-
-.third-title {
-  width: 20%;
-  text-align: center;
-  font-family: var(--default-font);
-  margin-left: 180px;
-  color: #fff;
-  background-color: var(--branding-color);
-  padding: 10px 20px;
-  border-radius: 5px;
-  margin-top: 25px;
-}
-
-.project-description-one {
-  font-family: var(--default-font);
-  color: var(--branding-color);
-  margin-top: 25px;
-  width: 30%;
-  text-align: center;
-  line-height: 1.8;
-}
-
-.project-description-two {
-  font-family: var(--default-font);
-  color: var(--branding-color);
-  margin-top: 25px;
-  margin-left: 60px;
-  width: 30%;
-  text-align: center;
-  line-height: 1.8;
-}
-
-.project-description-three {
-  font-family: var(--default-font);
-  color: var(--branding-color);
-  margin-top: 25px;
-  width: 30%;
-  text-align: center;
-  margin-left: 70px;
-  line-height: 1.8;
-}
-
 body {
   margin-bottom: 50px;
+}
+
+h4 {
+  margin-top: 40px;
+}
+
+.btn {
+  font-family: var(--default-font);
+  background-color: #00262b;
+  opacity: 0.8;
+  color: #fff;
+  font-weight: bolder;
+  border: 6px double;
+  border-radius: 7px;
+  padding: 15px;
+  text-decoration: none;
+  transition: all 250ms linear;
+}
+.btn:hover {
+  background-color: #fff;
+  color: var(--branding-color);
+  font-size: large;
 }
