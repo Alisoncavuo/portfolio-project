@@ -21,61 +21,6 @@ h1 {
   color: var(--branding-color);
   font-size: 50px;
 }
-h2 {
-  font-family: var(--default-font);
-  word-spacing: 1px;
-  color: #01353c;
-  font-size: 38px;
-  margin-bottom: 20px;
-}
-h5 {
-  font-family: "Overpass Mono", monospace;
-  color: #01353c;
-  margin-bottom: 45px;
-  font-size: 20px;
-}
-
-.hero {
-  background-color: #efefef;
-  text-align: center;
-  padding: 160px 0;
-}
-.btn-contact {
-  font-family: "Overpass Mono", monospace;
-  background-color: #00262b;
-  opacity: 0.8;
-  color: #fff;
-  font-weight: bolder;
-  border: 6px double;
-  border-radius: 7px;
-  padding: 15px;
-  text-decoration: none;
-}
-.btn-contact:hover {
-  background-color: #fff;
-  color: #00262b;
-  font-size: large;
-}
-
-.btn-contact {
-  animation-name: example;
-  animation-duration: 6s;
-}
-
-@keyframes example {
-  0% {
-    background-color: #f8f0e9;
-  }
-  25% {
-    background-color: #f7c593;
-  }
-  50% {
-    background-color: #e69647;
-  }
-  100% {
-    background-color: #b16a24;
-  }
-}
 
 h1 {
   animation-duration: 2s;
@@ -94,6 +39,19 @@ h1 {
   }
 }
 
+h2 {
+  font-family: var(--default-font);
+  word-spacing: 1px;
+  color: var(--branding-color);
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+h5 {
+  font-family: var(--default-font);
+  color: var(--branding-color);
+  margin-bottom: 45px;
+  font-size: 20px;
+}
 h5 {
   animation-duration: 5s;
   animation-name: slidein;
@@ -109,4 +67,66 @@ h5 {
     margin-right: 0%;
     width: 100%;
   }
+}
+
+.hero {
+  background-color: #efefef;
+  text-align: center;
+  padding: 60px 0;
+  margin-top: 50px;
+}
+.btn-contact {
+  font-family: var(--default-font);
+  background-color: var(--branding-color);
+  opacity: 0.8;
+  color: #fff;
+  font-weight: bolder;
+  border: 6px double;
+  border-radius: 7px;
+  padding: 15px;
+  text-decoration: none;
+}
+.btn-contact:hover {
+  background-color: #fff;
+  color: var(--branding-color);
+  font-size: large;
+}
+
+.btn-contact {
+  animation-name: example;
+  animation-duration: 6s;
+}
+
+@keyframes example {
+  10% {
+    background-color: #acc8cc;
+  }
+  20% {
+    background-color: #4f99a3;
+  }
+  55% {
+    background-color: #1e4f55;
+  }
+  100% {
+    background-color: #00262b;
+  }
+}
+
+.intro-paragraph {
+  color: var(--branding-color);
+  margin-top: 40px;
+  width: 700px;
+  text-align: center;
+  margin-left: 380px;
+  line-height: 2;
+  font-family: var(--default-font);
+}
+.intro-two-paragraph {
+  color: var(--branding-color);
+  margin-top: 40px;
+  width: 700px;
+  text-align: center;
+  margin-left: 380px;
+  line-height: 2;
+  font-family: var(--default-font);
 }
