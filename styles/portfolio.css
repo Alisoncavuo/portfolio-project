@@ -117,7 +117,7 @@ h5 {
 .intro-paragraph {
   color: var(--branding-color);
   margin-top: 40px;
-  width: 700px;
+  width: 750px;
   text-align: center;
   margin-left: 380px;
   line-height: 2;
@@ -167,4 +167,22 @@ h4 {
   background-color: #fff;
   color: var(--branding-color);
   font-size: large;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    text-align: centers;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .intro-paragraph {
+    text-align: center;
+  }
+  .intro-two-paragraph {
+    text-align: center;
+  }
 }
