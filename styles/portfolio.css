@@ -181,11 +181,20 @@ h4 {
     text-align: centers;
   }
   h1 {
-    font-size: 40px;
+    font-size: 35px;
   }
   h2 {
-    font-size: 30px;
+    font-size: 25px;
   }
+  h5 {
+    font-size: 14px;
+  }
+
+  .btn-contact {
+    font-size: medium;
+    padding: 10px;
+  }
+
   .intro-paragraph {
     text-align: center;
   }
