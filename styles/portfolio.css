@@ -75,10 +75,11 @@ h5 {
 
 .hero {
   background-color: var(--background-color);
-  text-align: center;
+
   padding: 60px 0;
   margin-top: 50px;
   text-align: center;
+  width: 100%;
 }
 .btn-contact {
   font-family: var(--default-font);
@@ -123,7 +124,7 @@ h5 {
   margin-top: 40px;
   width: 750px;
   text-align: center;
-
+  width: 100%;
   line-height: 2;
   font-family: var(--default-font);
 }
@@ -132,7 +133,9 @@ h5 {
   margin-top: 40px;
   width: 700px;
   text-align: center;
-
+  margin: 0;
+  padding: 0;
+  width: 100%;
   line-height: 2;
   font-family: var(--default-font);
 }
