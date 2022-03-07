@@ -185,4 +185,7 @@ h4 {
   .intro-two-paragraph {
     text-align: center;
   }
+  img {
+    display: none;
+  }
 }
