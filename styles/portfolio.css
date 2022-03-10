@@ -180,7 +180,7 @@ h4 {
   .hero {
     text-align: centers;
   }
-  h1 {
+  .my-name {
     font-size: 35px;
   }
   h2 {
@@ -204,12 +204,21 @@ h4 {
   img {
     display: none;
   }
+
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+
+  h1 {
+    color: tomato;
+  }
 }
 
 .img-alison {
   display: block;
   margin: 0 auto;
-  width: 60%;
+  width: 65%;
   text-align: right;
   margin: 30px;
 }
