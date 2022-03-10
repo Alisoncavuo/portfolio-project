@@ -17,6 +17,15 @@ font-family: 'Source Sans Pro', sans-serif;*/
   --default-font: "Overpass Mono", monospace;
 }
 
+h2 {
+  font-family: var(--default-font);
+  text-align: center;
+  word-spacing: 1px;
+  font-size: 38px;
+  margin-bottom: 20px;
+  color: brown;
+}
+
 .my-name {
   font-family: var(--heading-font-family);
   color: var(--branding-color);
@@ -41,14 +50,6 @@ font-family: 'Source Sans Pro', sans-serif;*/
   }
 }
 
-h2 {
-  font-family: var(--default-font);
-  word-spacing: 1px;
-  color: var(--branding-color);
-  font-size: 38px;
-  margin-bottom: 20px;
-  text-align: center;
-}
 h5 {
   font-family: var(--default-font);
   color: var(--branding-color);
@@ -75,7 +76,7 @@ h5 {
 
 .hero {
   background-color: var(--background-color);
-
+  text-align: center;
   padding: 60px 0;
   margin-top: 50px;
   text-align: center;
