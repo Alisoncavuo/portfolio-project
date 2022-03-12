@@ -17,6 +17,13 @@ font-family: 'Source Sans Pro', sans-serif;*/
   --default-font: "Overpass Mono", monospace;
 }
 
+.hello-content {
+  font-family: var(--heading-font-family);
+  color: var(--branding-color);
+  font-size: 55px;
+  text-align: left;
+}
+
 .my-name {
   font-family: var(--heading-font-family);
   color: var(--branding-color);
@@ -27,6 +34,14 @@ font-family: 'Source Sans Pro', sans-serif;*/
 .my-name {
   animation-duration: 2s;
   animation-name: slidein;
+}
+
+.work-title {
+  font-family: var(--heading-font-family);
+  color: var(--branding-color);
+  font-size: 50px;
+  text-align: center;
+  margin-top: 50px;
 }
 
 @keyframes slidein {
@@ -170,9 +185,26 @@ h2 {
   text-align: left;
 }
 
+.second-line {
+  font-family: var(--default-font);
+  color: var(--branding-color);
+  margin-bottom: 45px;
+  font-size: 27px;
+  text-align: left;
+}
+
+.work-paragraph {
+  font-family: var(--default-font);
+  color: var(--branding-color);
+  margin-bottom: 45px;
+  font-size: 27px;
+  text-align: center;
+}
+
 .intro-paragraph {
   color: var(--branding-color);
   margin-top: 40px;
+  margin-left: 200px;
   text-align: right;
   max-width: 900px;
   line-height: 2;
@@ -181,10 +213,18 @@ h2 {
 .intro-two-paragraph {
   color: var(--branding-color);
   margin-top: 40px;
-  width: 700px;
-  text-align: center;
-  margin: 0;
-  padding: 0;
+  margin-left: 200px;
+  text-align: right;
+  max-width: 900px;
+  line-height: 2;
+  font-family: var(--default-font);
+}
+
+.about-paragraph {
+  color: var(--branding-color);
+  margin-top: 40px;
+  margin-bottom: 30px;
+  text-align: left;
   max-width: 900px;
   line-height: 2;
   font-family: var(--default-font);
@@ -238,9 +278,5 @@ h2 {
   .about-section {
     text-align: center;
     padding: 0;
-  }
-
-  h1 {
-    color: tomato;
   }
 }
