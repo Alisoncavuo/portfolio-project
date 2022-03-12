@@ -17,15 +17,6 @@ font-family: 'Source Sans Pro', sans-serif;*/
   --default-font: "Overpass Mono", monospace;
 }
 
-h2 {
-  font-family: var(--default-font);
-  text-align: center;
-  word-spacing: 1px;
-  font-size: 38px;
-  margin-bottom: 20px;
-  color: brown;
-}
-
 .my-name {
   font-family: var(--heading-font-family);
   color: var(--branding-color);
@@ -55,7 +46,6 @@ h5 {
   color: var(--branding-color);
   margin-bottom: 45px;
   font-size: 20px;
-  text-align: center;
 }
 h5 {
   animation-duration: 5s;
@@ -79,9 +69,10 @@ h5 {
   text-align: center;
   padding: 60px 0;
   margin-top: 50px;
-  text-align: center;
+
   width: 100%;
 }
+
 .btn-contact {
   font-family: var(--default-font);
   background-color: #00262b;
@@ -120,27 +111,6 @@ h5 {
   }
 }
 
-.intro-paragraph {
-  color: var(--branding-color);
-  margin-top: 40px;
-  width: 750px;
-  text-align: center;
-  width: 100%;
-  line-height: 2;
-  font-family: var(--default-font);
-}
-.intro-two-paragraph {
-  color: var(--branding-color);
-  margin-top: 40px;
-  width: 700px;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  line-height: 2;
-  font-family: var(--default-font);
-}
-
 img {
   margin-top: 50px;
   max-width: 100%;
@@ -175,6 +145,65 @@ h4 {
   background-color: #fff;
   color: var(--branding-color);
   font-size: large;
+}
+
+.img-alison {
+  display: block;
+  margin: 0 auto;
+  width: 65%;
+  text-align: right;
+  margin: 30px;
+}
+
+.about-section h1 {
+  font-family: var(--heading-font-family);
+  color: var(--branding-color);
+  font-size: 60px;
+  line-height: 1.2;
+  text-align: left;
+}
+h2 {
+  font-family: var(--default-font);
+  color: var(--branding-color);
+  margin-bottom: 45px;
+  font-size: 30px;
+  text-align: left;
+}
+
+.intro-paragraph {
+  color: var(--branding-color);
+  margin-top: 40px;
+  text-align: right;
+  max-width: 900px;
+  line-height: 2;
+  font-family: var(--default-font);
+}
+.intro-two-paragraph {
+  color: var(--branding-color);
+  margin-top: 40px;
+  width: 700px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  max-width: 900px;
+  line-height: 2;
+  font-family: var(--default-font);
+}
+
+.about-section {
+  padding: 160px 40px;
+}
+
+.about-section-content {
+  margin: 30px;
+}
+
+h2 {
+  font-family: var(--default-font);
+  color: var(--branding-color);
+  margin-bottom: 30px;
+  font-size: 37px;
+  text-align: center;
 }
 
 @media (max-width: 900px) {
@@ -214,35 +243,4 @@ h4 {
   h1 {
     color: tomato;
   }
-}
-
-.img-alison {
-  display: block;
-  margin: 0 auto;
-  width: 65%;
-  text-align: right;
-  margin: 30px;
-}
-
-.about-section h1 {
-  font-family: var(--heading-font-family);
-  color: var(--branding-color);
-  font-size: 60px;
-  line-height: 1.2;
-  text-align: left;
-}
-h2 {
-  font-family: var(--default-font);
-  color: var(--branding-color);
-  margin-bottom: 45px;
-  font-size: 30px;
-  text-align: left;
-}
-
-.about-section {
-  padding: 160px 40px;
-}
-
-.about-section-content {
-  margin: 30px;
 }
