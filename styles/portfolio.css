@@ -24,6 +24,13 @@ font-family: 'Source Sans Pro', sans-serif;*/
   text-align: left;
 }
 
+.project-title {
+  font-family: var(--heading-font-family);
+  color: var(--branding-color);
+  font-size: 30px;
+  font-weight: bold;
+}
+
 .my-name {
   font-family: var(--heading-font-family);
   color: var(--branding-color);
@@ -126,16 +133,6 @@ h5 {
   }
 }
 
-img {
-  margin-top: 50px;
-  max-width: 100%;
-  height: auto;
-  border: 15px solid;
-  border-radius: 6px;
-  border-color: var(--background-color);
-  box-shadow: 8px 12px 40px;
-}
-
 body {
   margin-bottom: 50px;
 }
@@ -168,6 +165,25 @@ h4 {
   width: 65%;
   text-align: right;
   margin: 30px;
+  border-style: solid;
+  border-width: 15px;
+  border-radius: 8px;
+  border-color: var(--background-color);
+  box-shadow: 8px 8px 25px;
+  margin-left: 40px;
+}
+
+.all-projects {
+  display: block;
+  margin: 0 auto;
+  border-style: solid;
+  border-width: 15px;
+  border-radius: 8px;
+  border-color: var(--background-color);
+  box-shadow: 8px 8px 25px;
+  margin-bottom: 15px;
+  width: 40%;
+  margin-left: 430px;
 }
 
 .about-section h1 {
@@ -228,6 +244,13 @@ h2 {
   max-width: 900px;
   line-height: 2;
   font-family: var(--default-font);
+}
+
+.project-description {
+  color: var(--branding-color);
+  margin-top: 10px;
+  font-family: var(--default-font);
+  margin-bottom: 80px;
 }
 
 .about-section {
