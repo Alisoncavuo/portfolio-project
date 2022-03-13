@@ -269,6 +269,32 @@ h2 {
   text-align: center;
 }
 
+.contact-me {
+  margin-top: 40px;
+  text-align: center;
+  font-family: var(--default-font);
+  color: var(--branding-color);
+  font-size: 18px;
+  line-height: 0.5;
+  font-weight: bold;
+}
+.contact-me-two {
+  margin-top: 40px;
+  text-align: center;
+  font-family: var(--default-font);
+  color: var(--branding-color);
+  font-size: 18px;
+  line-height: 0.5;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.contact-me-two:hover {
+  font-size: 30px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
 @media (max-width: 900px) {
   .hero {
     text-align: centers;
