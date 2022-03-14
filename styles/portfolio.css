@@ -13,8 +13,42 @@ font-family: 'Source Sans Pro', sans-serif;*/
 :root {
   --branding-color: #01353c;
   --background-color: #efefef;
+  --contrast-orange: #da5f32;
   --heading-font-family: "Fraunces", serif;
   --default-font: "Overpass Mono", monospace;
+}
+
+.logo {
+  max-width: 60px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 50px;
+  margin-left: 35px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--branding-color);
+  transition: all 200ms ease-in-out;
+}
+nav a:hover {
+  font-size: 25px;
+  color: var(--contrast-orange);
+}
+
+nav li.active a {
+  color: var(--contrast-orange);
 }
 
 .hello-content {
@@ -89,23 +123,22 @@ h5 {
 .hero {
   background-color: var(--background-color);
   text-align: center;
-  padding: 60px 0;
-  margin-top: 50px;
-
+  padding: 100px 0;
   width: 100%;
 }
 
 .btn-contact {
   font-family: var(--default-font);
-  background-color: #00262b;
+  background-color: var(--contrast-orange);
   opacity: 0.8;
-  color: #fff;
+  color: var(--branding-color);
   font-weight: bolder;
   border: 6px double;
   border-radius: 7px;
   padding: 15px;
   text-decoration: none;
-  transition: all 250ms linear;
+
+  transition: all 200ms ease-in-out;
 }
 .btn-contact:hover {
   background-color: #fff;
@@ -120,16 +153,16 @@ h5 {
 
 @keyframes example {
   15% {
-    background-color: #bbcacc;
+    background-color: #f3e3de;
   }
   20% {
-    background-color: #457277;
+    background-color: #e6a992;
   }
   55% {
-    background-color: #276068;
+    background-color: #db8e72;
   }
   100% {
-    background-color: var(--branding-color);
+    background-color: #db7d5b;
   }
 }
 
@@ -296,6 +329,14 @@ h2 {
 }
 
 @media (max-width: 900px) {
+  nav li {
+    display: inline;
+    list-style: none;
+    line-height: 20px;
+    margin-left: 15px;
+    font-size: 13px;
+  }
+
   .hero {
     text-align: centers;
   }
