@@ -153,16 +153,16 @@ h5 {
 
 @keyframes example {
   15% {
-    background-color: #f3e3de;
+    background-color: #f0cabe;
   }
   20% {
-    background-color: #e6a992;
+    background-color: #e2977c;
   }
   55% {
-    background-color: #db8e72;
+    background-color: #be7357;
   }
   100% {
-    background-color: #db7d5b;
+    background-color: #c06341;
   }
 }
 
@@ -309,7 +309,6 @@ h2 {
   color: var(--branding-color);
   font-size: 18px;
   line-height: 0.5;
-  font-weight: bold;
 }
 .contact-me-two {
   margin-top: 40px;
