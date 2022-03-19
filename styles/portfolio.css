@@ -181,6 +181,7 @@ h5 {
 }
 
 .hero {
+  margin: 0 auto;
   background: radial-gradient(
     circle at 10% 20%,
     rgb(255, 252, 214) 0%,
@@ -354,23 +355,23 @@ h2 {
 }
 
 .intro-paragraph {
+  margin: 0 auto;
   color: var(--branding-color);
   margin-top: 40px;
-  margin-left: 200px;
   text-align: right;
-  max-width: 900px;
+  max-width: 1000px;
   line-height: 2;
   font-family: var(--default-font);
 }
 .intro-two-paragraph {
+  margin: 0 auto;
   color: var(--branding-color);
-  margin-top: 40px;
-  margin-left: 200px;
   text-align: right;
-  max-width: 900px;
+  max-width: 1000px;
   line-height: 2;
   font-family: var(--default-font);
   margin-bottom: 30px;
+  margin-top: 35px;
 }
 
 .about-paragraph {
