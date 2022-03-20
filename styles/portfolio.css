@@ -171,6 +171,12 @@ h5 {
   }
 }
 
+.code-icons-one {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
 .burger-gradiant {
   background: radial-gradient(
     circle at 10% 20%,
