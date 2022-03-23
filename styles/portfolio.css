@@ -451,10 +451,6 @@ body {
 }
 
 @media (max-width: 900px) {
-  .contact-me {
-    display: inline;
-  }
-
   .work-title {
     text-align: center;
     font-size: 33px;
@@ -462,7 +458,7 @@ body {
 
   .work-paragraph {
     text-align: center;
-    font-size: 17px;
+    font-size: 23px;
   }
   .all-projects {
     display: block;
@@ -472,8 +468,8 @@ body {
   }
 
   .burger-gradiant {
-    width: 300px;
     margin: 20px 20px;
+    padding: 5px 50px;
   }
 
   .hello-content {
@@ -513,10 +509,9 @@ body {
   nav li {
     display: inline;
     list-style: none;
-    line-height: 20px;
-    margin-left: 15px;
-    font-size: 13px;
-    background-color: none;
+    line-height: 15px;
+    margin-left: 25px;
+    font-size: 10px;
   }
 
   .hero {
