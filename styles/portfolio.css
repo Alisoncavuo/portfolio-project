@@ -221,11 +221,10 @@ h5 {
   font-size: large;
 }
 
-.btn-github {
+.view-live {
   display: block;
   margin: 0 auto;
-  max-width: 100px;
-  padding: 7px 7px;
+  max-width: 150px;
   font-family: var(--default-font);
   background-color: var(--branding-color);
   opacity: 0.8;
@@ -236,11 +235,38 @@ h5 {
   margin-bottom: 80px;
   text-decoration: none;
   transition: all 200ms ease-in-out;
+  margin: 0 auto;
+  margin-bottom: 65px;
+}
+.view-live:hover {
+  background-color: var(--super-background);
+  color: var(--branding-color);
+  font-size: large;
+  max-width: 160px;
+}
+
+.btn-github {
+  display: block;
+  margin: 0 auto;
+  max-width: 140px;
+  font-family: var(--default-font);
+  background-color: var(--branding-color);
+  opacity: 0.8;
+  color: #fff;
+  font-weight: bolder;
+  border: 6px double;
+  border-radius: 15px;
+  margin-bottom: 80px;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+  margin: 0 auto;
+  margin-bottom: 10px;
 }
 .btn-github:hover {
   background-color: var(--super-background);
   color: var(--branding-color);
   font-size: large;
+  max-width: 150px;
 }
 
 .btn-contact {
@@ -399,7 +425,7 @@ h2 {
   color: var(--branding-color);
   margin-top: 7px;
   font-family: var(--default-font);
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .about-section {
@@ -453,12 +479,16 @@ body {
 @media (max-width: 900px) {
   .work-title {
     text-align: center;
-    font-size: 33px;
+    font-size: 30px;
   }
 
   .work-paragraph {
     text-align: center;
-    font-size: 23px;
+    font-size: 17px;
+  }
+  .project-title {
+    text-align: center;
+    font-size: 21px;
   }
   .all-projects {
     display: block;
@@ -506,19 +536,23 @@ body {
     margin-left: 100px;
   }
 
-  nav li {
+  ul li {
     display: inline;
     list-style: none;
     line-height: 15px;
-    margin-left: 25px;
+    margin-left: 10px;
     font-size: 10px;
   }
 
   .hero {
     text-align: centers;
   }
+  .logo {
+    width: 40px;
+  }
+
   .my-name {
-    font-size: 35px;
+    font-size: 38px;
   }
   h2 {
     font-size: 25px;
@@ -537,9 +571,6 @@ body {
   }
   .intro-two-paragraph {
     text-align: center;
-  }
-  img {
-    display: none;
   }
 
   .about-section {
