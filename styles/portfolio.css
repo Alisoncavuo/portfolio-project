@@ -537,15 +537,11 @@ body {
   }
 
   ul li {
-    display: inline;
-    list-style: none;
-    line-height: 15px;
-    margin-left: 10px;
-    font-size: 10px;
+    text-align: center;
   }
 
   .hero {
-    text-align: centers;
+    text-align: center;
   }
   .logo {
     width: 40px;
