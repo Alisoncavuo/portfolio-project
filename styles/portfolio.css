@@ -477,6 +477,17 @@ body {
 }
 
 @media (max-width: 900px) {
+  .code-icons {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    width: 180px;
+  }
+
+  .zendesk-icons {
+    margin: 0 auto;
+    width: 400px;
+  }
+
   .work-title {
     text-align: center;
     font-size: 30px;
@@ -498,7 +509,8 @@ body {
   }
 
   .burger-gradiant {
-    margin: 20px 20px;
+    margin: 0 auto;
+    padding: 20px 20px;
     padding: 5px 50px;
   }
 
@@ -537,6 +549,8 @@ body {
   }
 
   ul li {
+    display: inline-flexbox;
+    font-size: 10px;
     text-align: center;
   }
 
