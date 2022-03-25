@@ -510,8 +510,6 @@ body {
 
   .burger-gradiant {
     margin: 0 auto;
-    padding: 20px 20px;
-    padding: 5px 50px;
   }
 
   .hello-content {
@@ -548,10 +546,25 @@ body {
     margin-left: 100px;
   }
 
+  .logo {
+    text-align: left;
+  }
+
+  nav li {
+    display: inline;
+    list-style: none;
+    line-height: 50px;
+    margin-left: 35px;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+
   ul li {
-    display: inline-flexbox;
+    display: inline;
     font-size: 10px;
-    text-align: center;
+    text-align: left;
   }
 
   .hero {
